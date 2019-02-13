@@ -1,0 +1,16 @@
+{
+  "name": "itunes-connect-slack",
+  "version": "1.0.0",
+  "main": "poll-itc.js",
+  "repository": "git@github.com:starburst997/itunes-connect-slack",
+  "author": "erikvillegas",
+  "license": "MIT",
+  "scripts": {
+    "start": "node poll-itc.js"
+  },
+  "dependencies": {
+    "@slack/client": "^3.16.0",
+    "dirty": "^1.1.0",
+    "moment": "^2.24.0"
+  }
+}

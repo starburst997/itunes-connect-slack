@@ -11,7 +11,7 @@ function postToSlack(appInfo, submissionStartDate) {
 		"as_user" : "true"
 	}
 
-	client.chat.postMessage('#ios-app-updates', message, params, function(err, res) {
+	client.chat.postMessage('#builds', message, params, function(err, res) {
 	    if (err) {
 	        console.log('Error:', err);
 	    }
